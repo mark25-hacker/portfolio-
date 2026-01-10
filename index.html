@@ -2,62 +2,98 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Business Holdings</title>
   <link rel="stylesheet" href="clone.css">
 </head>
 <body>
 
-<header>
-   
-     <IMG SRc="logo-removebg-preview (6).png" width="300"height="100">
-  <nav id="nav">
-    <a href="login page.html"><button>login</button></a>
-    <a href="#home">Home</a>
-    <a href="#services"><select id="selection"><option value="">services</ option><option>consult</option><option>investment--**</option><option>technology</option></select></a>
-    <a href="#about">About</a>
-    <a href="#contact">Contact</a>
-  </nav>
-  <div class="menu-btn" onclick="toggleMenu()">☰</div>
-</header>
+  <!-- ===== HEADER ===== -->
+  <header class="header">
+    <div class="logo">
+      <img src="logo-removebg-preview-6.png" alt="Business Holdings Logo" width="300" height="100">
+    </div>
 
-<section id="home" class="hero">
-  <h1>Building Smart Business Solutions</h1>
-  <p>We help companies grow with innovation and strategy.</p>
-  <button>Get Started</button>
-</section>
+    <nav id="nav" class="navigation">
+      <a href="#home">Home</a>
+      <a href="#services">Services</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+      <a href="login page.html" class="login-btn">Login</a>
+    </nav>
 
-<section id="services" class="section">
-  <h2>Our Services</h2>
-  <div class="cards">
-    <div class="card">Consulting</div>
-    <div class="card">Investments</div>
-    <div class="card">Technology</div>
-  </div>
-</section>
+    <!-- Mobile Menu Button -->
+    <div class="menu-btn" onclick="toggleMenu()">☰</div>
+  </header>
 
-<section id="about" class="section light">
-  <h2>About Us</h2>
-  <p>
-    We are a professional holdings company focused on sustainable growth
-    and long-term value creation.
-  </p>
-</section>
+  <!-- ===== HERO SECTION ===== -->
+  <section id="home" class="hero">
+    <h1>Building Smart Business Solutions</h1>
+    <p>We help companies grow with innovation and strategy.</p>
+    <button class="primary-btn">Get Started</button>
+  </section>
 
-<section id="contact" class="section">
-  <h2>Contact Us</h2>
-  <form>
-    <input type="text" placeholder="Your Name" required />
-    <input type="email" placeholder="Your Email" required />
-    <textarea placeholder="Message"></textarea>
-    <button type="submit">Send</button>
-  </form>
-</section>
+  <!-- ===== SERVICES ===== -->
+  <section id="services" class="section">
+    <h2>Our Services</h2>
 
-<footer>
-  <p>© 2026 Your Company. All rights reserved.</p>
-</footer>
+    <div class="cards">
+      <div class="card">
+        <h3>Consulting</h3>
+        <p>Professional business and strategy consulting.</p>
+      </div>
 
-<script src="clone.js"></script>
+      <div class="card">
+        <h3>Investments</h3>
+        <p>Smart investments for long-term growth.</p>
+      </div>
+
+      <div class="card">
+        <h3>Technology</h3>
+        <p>Innovative tech solutions for modern businesses.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== ABOUT ===== -->
+  <section id="about" class="section light">
+    <h2>About Us</h2>
+    <p>
+      We are a professional holdings company focused on sustainable growth,
+      innovation, and long-term value creation for our partners.
+    </p>
+  </section>
+
+  <!-- ===== CONTACT ===== -->
+  <section id="contact" class="section">
+    <h2>Contact Us</h2>
+
+    <form class="contact-form">
+      <label>
+        Your Name
+        <input type="text" required>
+      </label>
+
+      <label>
+        Your Email
+        <input type="email" required>
+      </label>
+
+      <label>
+        Message
+        <textarea rows="4"></textarea>
+      </label>
+
+      <button type="submit" class="primary-btn">Send Message</button>
+    </form>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <p>© 2026 Business Holdings. All rights reserved.</p>
+  </footer>
+
+  <script src="clone.js"></script>
 </body>
 </html>
+
