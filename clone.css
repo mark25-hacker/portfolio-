@@ -207,6 +207,11 @@ footer {
   .cards {
     flex-direction: column;
   }
+.images{
+  width : 15%;   
+  aspect-ratio:2/3;
+}
 
 }
+
 
