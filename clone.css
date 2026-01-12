@@ -74,7 +74,7 @@ nav a:hover {
   justify-content: center;
   align-items: center;
   text-align: center;
-  padding: 0 20px;
+  padding: 0 ;
 }
 
 .hero h1 {
@@ -107,7 +107,7 @@ nav a:hover {
 }
 
 .section h2 {
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 /* ===== SERVICES CARDS ===== */
@@ -213,6 +213,7 @@ footer {
 }
 
 }
+
 
 
 
